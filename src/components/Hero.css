@@ -1,0 +1,26 @@
+@keyframes shimmerSweep {
+  0% {
+    background-position: 150%;
+  }
+  100% {
+    background-position: -150%;
+  }
+}
+
+.shimmer {
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(
+    90deg,
+    #cccccc 0%,
+    #ffffff 45%,
+    #ffffff 55%,
+    #cccccc 100%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: shimmerSweep 6s linear infinite alternate;
+}
