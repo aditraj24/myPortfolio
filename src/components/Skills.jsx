@@ -5,36 +5,81 @@ function Skills() {
     {
       category: "Programming Languages",
       items: [
-        { name: "C", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
-        { name: "C++", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
-        { name: "JavaScript", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-        { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-        { name: "HTML", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
-        { name: "CSS", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
+        {
+          name: "C",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+        },
+        {
+          name: "C++",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+        },
+        {
+          name: "JavaScript",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        },
+        {
+          name: "Python",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+        },
+        {
+          name: "HTML",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        },
+        {
+          name: "CSS",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        },
       ],
     },
     {
       category: "Frameworks & Libraries",
       items: [
-        { name: "React", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-        { name: "Tailwind CSS", logo: "https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/tailwindcss/tailwindcss-plain.svg" },
-        { name: "Bootstrap", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" },
+        {
+          name: "React",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        },
+        {
+          name: "Tailwind CSS",
+          logo: "https://cdn.jsdelivr.net/npm/devicon@2.15.1/icons/tailwindcss/tailwindcss-plain.svg",
+        },
+        {
+          name: "Bootstrap",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+        },
       ],
     },
     {
       category: "Tools & Platforms",
       items: [
-        { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-        { name: "GitHub", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
-        { name: "VS Code", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
-        { name: "Figma", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" },
-        { name: "Canva", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" },
+        {
+          name: "Git",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+        },
+        {
+          name: "GitHub",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+        },
+        {
+          name: "VS Code",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+        },
+        {
+          name: "Figma",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+        },
+        {
+          name: "Canva",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg",
+        },
       ],
     },
     {
       category: "Operating Systems",
       items: [
-        { name: "Windows", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" },
+        {
+          name: "Windows",
+          logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg",
+        },
       ],
     },
   ];
@@ -55,18 +100,20 @@ function Skills() {
         <h1
           className="text-4xl sm:text-5xl md:text-6xl font-bold mb-16 text-center"
           style={{
-            fontFamily: "'Clash Display', sans-serif",
+            
             background: "linear-gradient(to right, #ff5722, #ff7043, #ffab91)",
             WebkitBackgroundClip: "text",
             backgroundClip: "text",
             color: "transparent",
             textShadow: "0 0 12px rgba(255, 87, 34, 0.4)",
+            fontFamily: "'Fondamento', cursive",
+            paddingBottom:"10px"
           }}
         >
           My Tech Stack
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12" >
           {skillsData.map((skillCategory, categoryIndex) => (
             <div
               key={categoryIndex}

@@ -1,5 +1,3 @@
-
-
 import { useState, useEffect, useRef } from "react";
 
 function Project() {
@@ -88,12 +86,13 @@ function Project() {
         <h1
           className="text-3xl sm:text-5xl md:text-6xl font-extrabold mb-16"
           style={{
-            fontFamily: "'Clash Display', sans-serif",
+           
             background: "linear-gradient(to right, #FF5722, #FF7043, #FFAB91)",
             WebkitBackgroundClip: "text",
             backgroundClip: "text",
             color: "transparent",
             textShadow: "0 0 14px rgba(255, 87, 34, 0.4)",
+            fontFamily: "'Fondamento', cursive",
           }}
         >
           Crafted with Code

@@ -1,5 +1,3 @@
-
-
 function Contact() {
   const socialLinks = [
     {
@@ -41,7 +39,8 @@ function Contact() {
   ];
 
   return (
-    <section id="contact"
+    <section
+      id="contact"
       className="py-20 px-4 sm:px-8 text-white"
       style={{
         background: "linear-gradient(to bottom, #0a0a0a, #000000)",
@@ -51,12 +50,13 @@ function Contact() {
         <h1
           className="text-4xl sm:text-5xl md:text-6xl font-bold mb-16"
           style={{
-            fontFamily: "'Clash Display', sans-serif",
+           
             background: "linear-gradient(to right, #ff5722, #ff7043, #ffab91)",
             WebkitBackgroundClip: "text",
             backgroundClip: "text",
             color: "transparent",
             textShadow: "0 0 12px rgba(255, 87, 34, 0.4)",
+            fontFamily: "'Fondamento', cursive",
           }}
         >
           Reach Out At
@@ -81,7 +81,8 @@ function Contact() {
                     fill="white"
                     className="w-8 h-8"
                   >
-                    <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 
+                    <path
+                      d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 
               2.76 2.24 5 5 5h14c2.76 0 
               5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 
               19h-3v-9h3v9zm-1.5-10.3c-.97 
@@ -91,7 +92,8 @@ function Contact() {
               10.3h-3v-4.6c0-1.1-.9-2-2-2s-2 
               .9-2 2v4.6h-3v-9h3v1.3c.68-.99 
               1.9-1.6 3.2-1.6 2.2 0 4 1.8 4 
-              4v5.3z" />
+              4v5.3z"
+                    />
                   </svg>
                 ) : (
                   <img

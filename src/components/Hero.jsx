@@ -32,9 +32,10 @@ const Hero = () => {
               backgroundClip: "text",
               color: "transparent",
               textShadow: "0 0 8px rgba(255, 87, 34, 0.5)",
+              fontFamily: "'Fondamento', cursive",
             }}
           >
-            Hey there, I'm Aditya.
+            Hey there, I'm Aditya..
           </span>
         </h1>
 

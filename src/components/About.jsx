@@ -80,12 +80,13 @@ function About() {
         <h1
           className="text-4xl sm:text-5xl md:text-6xl font-bold"
           style={{
-            fontFamily: "'Clash Display', sans-serif",
+            
             background: "linear-gradient(to right, #ff5722, #ff7043, #ffab91)",
             WebkitBackgroundClip: "text",
             backgroundClip: "text",
             color: "transparent",
             textShadow: "0 0 12px rgba(255, 87, 34, 0.4)",
+            fontFamily: "'Fondamento', cursive",
           }}
         >
           About Me
